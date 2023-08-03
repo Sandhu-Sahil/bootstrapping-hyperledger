@@ -1,0 +1,21 @@
+{
+    "endorsing_organizations":[
+        {
+            "name": "ProducersOrg"
+        },
+        {   
+            "name": "SellersOrg"
+        }
+    ],
+    "channels":[
+        {
+            "name": "mango-channel",
+            "endorsing_organizations":[
+                "ProducersOrg",
+                "SellersOrg"
+            ]
+        }
+    ],
+    "capability_level": "V2_0"
+}
+
